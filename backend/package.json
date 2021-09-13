@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Springboard Capstone 2 Project- Shopping Cart App",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server",
+    "seed": "node seeder",
+    "clear": "node seeder -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Koons",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongoose": "^6.0.5",
+    "nodemon": "^2.0.12"
+  }
+}
